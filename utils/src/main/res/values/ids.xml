@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="dialog_error" />
+	<item type="id" name="dialog_progress" />
+	<item type="id" name="dialog_question" />
+	<item type="id" name="dialog_message" />
+	<item type="id" name="list_item_layout" />
+	<item type="id" name="dialog_licensing_from_pc_mode" />
+	<item type="id" name="dialog_licensing_from_file_mode" />
+	<item type="id" name="dialog_manage_connections" />
+</resources>

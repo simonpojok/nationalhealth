@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/multimodal_capture_controls"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" >
+
+		<Button
+			android:id="@+id/multimodal_button_load"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/ic_menu_button_load"
+			android:text="@string/msg_load" />
+
+		<Button
+			android:id="@+id/multimodal_button_capture"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@android:drawable/ic_menu_camera"
+			android:gravity="center"
+			android:text="@string/msg_capture" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/multimodal_stop_controls"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:gravity="center" >
+
+		<Button
+				android:id="@+id/multimodal_button_stop"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:drawableLeft="@android:drawable/ic_menu_camera"
+				android:gravity="center"
+				android:text="@string/msg_stop" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/multimodal_success_controls"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:gravity="center"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/multimodal_success_controls_first_row"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_weight="4"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/multimodal_button_add"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@android:drawable/ic_menu_add"
+				android:text="Add" />
+
+			<Button
+				android:id="@+id/multimodal_button_discard"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+				android:text="Discard" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/multimodal_success_controls_second_row"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_weight="2"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/multimodal_button_retry"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@android:drawable/ic_menu_revert"
+				android:text="Retry" />
+
+			<Button
+				android:id="@+id/multimodal_button_unbound"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@drawable/ic_action_settings"
+				android:text="Unbound" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

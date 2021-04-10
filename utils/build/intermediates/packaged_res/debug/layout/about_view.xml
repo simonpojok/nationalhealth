@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/about_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/linearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp" >
+
+		<ImageView
+			android:id="@+id/about_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_neurotechnology_logo" />
+
+		<LinearLayout
+			android:id="@+id/linearLayout2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/textHeader"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/msg_company_name"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+				android:id="@+id/textTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Title: "
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:id="@+id/textVersion"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Version:"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView
+				android:id="@+id/textCopyright"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/msg_copyright"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

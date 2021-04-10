@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:seekbar="http://seekbar.com" >
+
+	<PreferenceCategory android:title="@string/preferences_enrollment_check_for_duplicates">
+		<CheckBoxPreference
+			android:key="iris_enrollment_check_for_duplicates"
+			android:defaultValue="true"
+			android:title="@string/preferences_enrollment_check_for_duplicates" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_matching" >
+		<ListPreference
+			android:key="iris_matching_speed"
+			android:title="@string/preferences_matching_speed"
+			android:entries="@array/iris_maching_speed_names"
+			android:entryValues="@array/iris_maching_speed_values"
+			android:defaultValue="0" />
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="iris_maximal_rotation"
+			android:title="@string/preferences_iris_maximal_rotation"
+			seekbar:min="0"
+			android:max="180"
+			android:defaultValue="15" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_extraction" >
+		<ListPreference
+			android:key="iris_template_size"
+			android:title="@string/preferences_template_size"
+			android:entries="@array/iris_template_size_names"
+			android:entryValues="@array/iris_template_size_values"
+			android:defaultValue="64" />
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="iris_quality_threshold"
+			android:title="@string/preferences_quality_threshold"
+			seekbar:min="0"
+			android:max="100"
+			android:defaultValue="5"/>
+
+		<CheckBoxPreference
+			android:key="iris_fast_extraction"
+			android:title="@string/preferences_iris_fast_extraction"
+			android:defaultValue="false" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_reset_to_defaults">
+		<Preference
+			android:key="iris_set_default_preferences"
+			android:title="@string/preferences_reset_to_defaults"
+			android:summary="@string/preferences_reset_to_defaults_summary" />
+	</PreferenceCategory>
+</PreferenceScreen>

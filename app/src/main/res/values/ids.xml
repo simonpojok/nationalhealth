@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ============================== -->
+	<!--  Common						-->
+	<!-- ============================== -->
+
+<!--
+	<item type="id" name="menu_about" />
+	<item type="id" name="menu_db_view" />
+	<item type="id" name="menu_preferences" />
+-->
+
+	<!-- ============================== -->
+	<!--  Database						-->
+	<!-- ============================== -->
+	<item type="id" name="dialog_db_modify" />
+	<item type="id" name="dialog_db_delete_entry" />
+	<item type="id" name="dialog_db_error" />
+
+	<!-- ============================== -->
+	<!--  Faces							-->
+	<!-- ============================== -->
+
+	<item type="id" name="dialog_enroll" />
+	<item type="id" name="dialog_verify" />
+	<item type="id" name="dialog_enroll_textfield" />
+
+	<!-- ============================== -->
+	<!--  Fingers						-->
+	<!-- ============================== -->
+
+	<item type="id" name="dialog_verification" />
+	<item type="id" name="dialog_failed" />
+	<item type="id" name="dialog_identification_results" />
+	<item type="id" name="dialog_finger_candidate_list" />
+	<item type="id" name="dialog_device_or_sample" />
+	<item type="id" name="finger_scan_activity_general_error_dialog" />
+	<item type="id" name="finger_scan_activity_scanning_error_dialog" />
+
+	<!-- ============================== -->
+	<!--  Voices						-->
+	<!-- ============================== -->
+	<item type="id" name="dialog_repeat_id" />
+	<item type="id" name="dialog_enroll_id" />
+	<item type="id" name="dialog_voice_candidate_list" />
+
+	<!-- ============================== -->
+	<!--  Irises						-->
+	<!-- ============================== -->
+	<item type="id" name="dialog_iris_candidate_list" />
+	<item type="id" name="iris_scan_activity_general_error_dialog" />
+	<item type="id" name="iris_scan_activity_scanning_error_dialog" />
+
+
+</resources>

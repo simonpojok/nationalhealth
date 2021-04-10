@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/layout_licensing_service_manager"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<LinearLayout
+		android:id="@+id/layout_licensing_service_buttons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" >
+
+		<Button
+			android:id="@+id/button_generate_report"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:text="@string/msg_generate_report" />
+	</LinearLayout>
+
+
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/layout_licensing_service_buttons"
+		android:layout_alignParentTop="true" >
+
+		<include
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			layout="@layout/licensing_service_data" />
+
+	</ScrollView>
+
+</RelativeLayout>

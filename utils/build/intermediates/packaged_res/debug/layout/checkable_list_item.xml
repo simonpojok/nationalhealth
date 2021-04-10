@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.neurotec.samples.widget.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/item_list_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="5dip" >
+
+	<CheckedTextView
+		android:id="@+id/list_item_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+		android:ellipsize="marquee"
+		android:gravity="center_vertical"
+		android:singleLine="true"
+		android:text="Title"
+		android:layout_marginLeft="20dp"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+		android:id="@+id/list_item_subtitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="subtitle"
+		android:layout_marginRight="30dp"
+		android:layout_marginLeft="30dp"/>
+
+</com.neurotec.samples.widget.CheckableLinearLayout>

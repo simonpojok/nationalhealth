@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">NationalHealth</string>
+    <string name="surname">Surname</string>
+    <string name="givenName">givenName</string>
+    <string name="nationality">nationality</string>
+    <string name="sex">Gender</string>
+    <string name="date_of_birth">date_of_birth</string>
+    <string name="nin">NIN NUMBER</string>
+    <string name="card_number">card number</string>
+    <string name="expiry_date">expiry_date</string>
+    <string name="village">village</string>
+    <string name="parish">parish</string>
+    <string name="s_county">s_county</string>
+    <string name="county">county</string>
+    <string name="district">district</string>
+
+    <string name="policy">The data processing on this system is handled in lawful, fair and transparent manner. All the data processing is based on a legitimate purpose. We take care and will not process data for any purpose other than the government designated legitimate purposes.
+        For more, refer this link.</string>
+
+    <string name="policy_text">
+       \n <p><b> The European Union General Data Protection Regulation (GDPR) </b> lays out responsibilities for organisations to ensure the privacy and protection of personal data,
+        provides data subjects with certain rights, and assigns powers to regulators to ask for demonstrations of accountability or even impose fines in cases where
+            an organisation is not complying with GDPR requirements.</p>
+        <p> Understanding GDPR requirements can sometimes be a daunting task, so understand the key requirements through this easy-to-follow GDPR summary.</p><br /> \n\n
+
+        <p><b> 1) Lawful, fair and transparent processing</b></p>
+       <p>The companies that process personal data are asked to process the personal data in a lawful, fair and transparent manner. Now, what does this mean?
+           Let us understand this:</p>
+
+        <p> Lawful means all processing should be based on a legitimate purpose.</p>
+        <p> Fair means companies take responsibility and do not process data for any purpose other than the legitimate purposes.</p>
+        <p>  Transparent means that companies must inform data subjects about the processing activities on their personal data.</p> \n\n
+
+        <p> <b> 2) Limitation of purpose, data and storage</b></p>
+
+         <p> The companies are expected to limit the processing, collect only that data which is necessary, and not keep personal data once the processing purpose is completed.
+             This would effectively bring the following requirements:</p>
+
+            <p>  forbid processing of personal data outside the legitimate purpose for which the personal data was collected
+            mandate that no personal data, other than what is necessary, be requested
+                ask that personal data should be deleted once the legitimate purpose for which it was collected is fulfilled</p> \n\n
+
+        <p> <b> 3) Data subject rights</b></p>
+
+        <p>  The data subjects have been assigned the right to ask the company what information it has about them, and what the company does with this information.
+            In addition, a data subject has the right to ask for correction, object to processing, lodge a complaint, or even ask for the deletion or transfer of his or her personal data.</p>\t <p> <b> \n\n
+
+        4) Consent</b></p>
+
+        <p>As and when the company has the intent to process personal data beyond the legitimate purpose for which that data was collected,
+        a clear and explicit consent must be asked from the data subject. Once collected, this consent must be documented,
+            and the data subject is allowed to withdraw his consent at any moment. Also, for the processing of children’s data, GDPR requires explicit consent of the parents (or guardian) if the child’s age is under 16.</p> \n\n
+
+        <p><b>5) Personal data breaches</b></p>
+         <p> The organisations must maintain a Personal Data Breach Register and, based on severity,
+             the regulator and data subject should be informed within 72 hours of identifying the breach.</p> \n\n
+
+        <p> <b> 6) Privacy by Design</b></p>
+         <p> Companies should incorporate organisational and technical mechanisms to protect personal data in the design of new systems and processes;
+             that is, privacy and protection aspects should be ensured by default.</p> \n\n
+
+        <p> <b> 7) Data Protection Impact Assessment</b></p>
+         <p> To estimate the impact of changes or new actions, a Data Protection Impact Assessment should be conducted when initiating a new project, change, or product.
+        The Data Protection Impact Assessment is a procedure that needs to be carried out when a significant change is introduced in the processing of personal data.
+             This change could be a new process, or a change to an existing process that alters the way personal data is being processed.</p> \n\n
+
+        <p> <b> 8) Data transfers</b></p>
+         <p> The controller of personal data has the accountability to ensure that personal data is protected and GDPR requirements respected,
+        even if processing is being done by a third party. This means controllers have the obligation to ensure the protection and privacy of personal data when that
+        data is being transferred outside the company, to a third party and / or other entity within the same company. </p>\n\n
+
+        <p> <b> 9) Data Protection Officer</b></p>
+         <p> When there is significant processing of personal data in an organisation, the organisation should assign a Data Protection Officer.
+             When assigned, the Data Protection Officer would have the responsibility of advising the company about compliance with EU GDPR requirements.</p> \n\n
+
+        <p> <b> 10) Awareness and training</b></p>
+  <p> Organisations must create awareness among employees about key GDPR requirements, and conduct regular trainings to ensure that employees remain aware
+      of their responsibilities with regard to the protection of personal data and identification of personal data breaches as soon as possible.</p>\n\n
+
+        <p>  <b>Conclusion: GDPR principles are key for understanding the GDPR </b></p>
+ <p> To conclude, there are a significant number of requirements that relate to EU GDPR.It is important to understand these requirements, and their implications for your company, and implement them within the context of your company.
+     Such implementation would require a dedicated effort, like that of running a project.</p>\n\n
+    </string>
+
+    <string name="about_misho">Many reception points and shared workplaces with high visitor traffic are inconvenient and risky for visitors and staff as health, security and business operations get more challenging.</string>
+    <string name="offer">
+        So what? We are offering a combined visitor, employee, health and safety digital solution to resolve more than 80% of the challenges.</string>
+    <string name="mgt">It is MISHO Visitor Management System for convenience and safety at all action points.</string>
+
+    <string name="about_dialog_title">About Neurotechnology</string>
+    <string name="msg_another_task_in_progress">Another task is in progress at the moment</string>
+    <string name="msg_about_company">Neurotechnology</string>
+    <string name="msg_camera_is_not_available">Camera is not available</string>
+    <string name="msg_could_not_create_directory">Could not create directory</string>
+    <string name="msg_crash_notif_title">Biometrics has crashed…</string>
+    <string name="msg_enter_id">Please enter user ID:</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_error_opening_file">Error opening file</string>
+    <string name="msg_extract">Extract</string>
+    <string name="msg_id_requirements">User id must be non-empty and unique</string>
+    <string name="msg_initializing">Initializing…</string>
+    <string name="msg_initializing_client">Initializing client…</string>
+    <string name="msg_copying_resources">Copying resources…</string>
+    <string name="msg_load">Load</string>
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="msg_name_empty">Template must have a name</string>
+    <string name="msg_no_such_id">There is no candidate with such id</string>
+    <string name="msg_not_valid_id">Entered id is not valid!</string>
+    <string name="msg_name_exists">The specified name is already in use. Please enter a different name.</string>
+    <string name="msg_no_records_in_database">There are no records in the database</string>
+    <string name="msg_no_record_loaded">No record loaded</string>
+    <string name="msg_retry">Retry</string>
+    <string name="msg_ready">Ready</string>
+    <string name="msg_found">Found</string>
+    <string name="msg_not_found">Not found</string>
+    <string name="msg_smile">Smile</string>
+    <string name="msg_database">Database</string>
+    <string name="msg_capturing_device_is_unavailable">Please make sure the capturing device is plugged in</string>
+    <string name="msg_processing">Processing...</string>
+    <string name="msg_no_device_selected">No device selected</string>
+    <string name="msg_metadata">Metadata</string>
+    <string name="msg_score">Score</string>
+    <string name="msg_name">Name</string>
+    <string name="msg_user_name">User name</string>
+    <string name="msg_user_id">User id</string>
+    <string name="menu_about">About</string>
+    <string name="menu_database">Database</string>
+    <string name="menu_activation">Activation</string>
+    <string name="menu_licensing">Licensing</string>
+    <string name="msg_again">Again</string>
+    <string name="msg_repeat">Repeat</string>
+    <string name="msg_done">Done</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_clear_db">Clear database</string>
+    <string name="menu_view_db">View database</string>
+    <string name="msg_operation_succeeded">Operation succeeded</string>
+    <string name="msg_operation_failed">Operation failed</string>
+    <string name="msg_failed_to_load_image_or_standard">File did not contain supported image or standard</string>
+
+    <!-- Extraction -->
+    <string name="msg_extraction">Extraction</string>
+    <string name="msg_extracting">Extracting…</string>
+    <string name="msg_extracting_please_wait">Extracting. Please wait…</string>
+    <string name="msg_extraction_succeeded">Extraction succeeded</string>
+    <string name="msg_extraction_failed">Template extraction failed: %1$s</string>
+    <string name="msg_liveness_check_failed">Liveness check failed</string>
+
+    <string name="msg_extraction_error">Error occurred during extraction</string>
+    <string name="msg_phrase_can_be_repeated">Note: phrase can be repeated to improve recognition quality</string>
+
+    <!-- Enrollment -->
+    <string name="msg_enroll">Enroll</string>
+    <string name="msg_enrollment">Enrollment</string>
+    <string name="msg_enrolling">Enrolling…</string>
+    <string name="msg_enrollment_succeeded">Enrollment succeeded</string>
+    <string name="msg_enrollment_failed">Enrollment failed: %1$s</string>
+
+    <!-- Matching -->
+    <string name="msg_no_matches">No matches found</string>
+
+    <!-- Verification -->
+    <string name="msg_verification">Verification</string>
+    <string name="msg_verify">Verify</string>
+    <string name="msg_verifying">Verifying…</string>
+    <string name="msg_person_verified">Person verified</string>
+    <string name="msg_verification_succeeded">Verification succeeded</string>
+    <string name="msg_verification_failed">Verification failed: %1$s</string>
+
+    <!-- Identification -->
+    <string name="msg_identification">Identification</string>
+    <string name="msg_identify">Identify</string>
+    <string name="msg_identifying">Identifying…</string>
+    <string name="msg_identification_fail">Identification failed</string>
+    <string name="msg_identification_error">Error occurred during identification</string>
+    <string name="msg_identification_results">ID: %1$s</string>
+    <string name="msg_identification_results_with_score">Name: %1$s. Score: %2$d</string>
+
+    <!-- NBiometricStatus enum values -->
+    <string name="msg_none">None</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_timeout">Process has timed out</string>
+    <string name="msg_source_missing">Source missing</string>
+    <string name="msg_cleaning_needed">Cleaning is needed</string>
+    <string name="msg_objects_not_removed">Objects have not been removed</string>
+    <string name="msg_object_missing">Object is missing</string>
+    <string name="msg_object_not_found"> Object is not found</string>
+    <string name="msg_too_few_objects">Too few object</string>
+    <string name="msg_too_many_objects">Too many objects</string>
+    <string name="msg_bad_object_sequence">Bad object sequence</string>
+    <string name="msg_spoof_detected">Spoof has been detected</string>
+    <string name="msg_bad_object">The object is bad</string>
+    <string name="msg_bad_dynamic_range">Bad dynamic range</string>
+    <string name="msg_bad_exposure">Bad exposure</string>
+    <string name="msg_bad_sharpness">Bad sharpness</string>
+    <string name="msg_too_few_features">Too few features</string>
+    <string name="msg_too_soft">The object is too soft</string>
+    <string name="msg_too_hard">The object is too hard</string>
+    <string name="msg_bad_position">Object is in bad position</string>
+    <string name="msg_too_north">Object is placed too far north</string>
+    <string name="msg_too_east">Object is placed too far east</string>
+    <string name="msg_too_south">Object is placed too far south</string>
+    <string name="msg_too_west">Object is placed too far west</string>
+    <string name="msg_too_close">Object is placed too close</string>
+    <string name="msg_too_far">Object is placed too far</string>
+    <string name="msg_bad_speed">Bad speed</string>
+    <string name="msg_too_slow">Too slow</string>
+    <string name="msg_too_fast">Too fast</string>
+    <string name="msg_bad_size">Size is bad</string>
+    <string name="msg_too_short">Object is too short</string>
+    <string name="msg_too_long">Object is too long</string>
+    <string name="msg_too_narrow">Object is too narrow</string>
+    <string name="msg_too_wide">Object is too wide</string>
+    <string name="msg_too_skewed">Object is too skewed</string>
+    <string name="msg_wrong_direction">Direction is wrong</string>
+    <string name="msg_too_few_samples">Too few samples</string>
+    <string name="msg_incompatible_samples">Incompatible samples</string>
+    <string name="msg_source_not_found">Source not found</string>
+    <string name="msg_incompatible_source">Incompatible source</string>
+    <string name="msg_id_not_found">ID not found</string>
+    <string name="msg_duplicate_id">Duplicate ID</string>
+    <string name="msg_match_not_found">Match not found</string>
+    <string name="msg_duplicate_found">Duplicate found</string>
+    <string name="msg_invalid_operations">Invalid operations</string>
+    <string name="msg_invalid_id">Invalid ID</string>
+    <string name="msg_invalid_query">Invalid query</string>
+    <string name="msg_invalid_property_value">Invalid property value</string>
+    <string name="msg_invalid_field_value">Invalid field value</string>
+    <string name="msg_operation_not_supported">Operation not supported</string>
+    <string name="msg_operation_not_activated">Operation not activated</string>
+    <string name="msg_source_error">Source error</string>
+    <string name="msg_capture_error">Capture error</string>
+    <string name="msg_communication_error">Communication error</string>
+    <string name="msg_internal_error">Internal error</string>
+
+    <!-- ============================== -->
+    <!-- Preferences -->
+    <!-- ============================== -->
+
+    <string name="preferences_general_section">General</string>
+    <string name="preferences_extraction">Extraction</string>
+    <string name="preferences_matching">Matching</string>
+    <string name="preferences_matching_speed">Matching speed</string>
+    <string name="preferences_template_size">Template size</string>
+    <string name="preferences_quality_threshold">Quality threshold</string>
+    <string name="preferences_finger_fast_extraction">Fast extraction</string>
+    <string name="preferences_finger_return_processed_image">Return processed image</string>
+    <string name="preferences_finger_return_binarized_image">Return binarized image</string>
+    <string name="preferences_face_matching_speed">Speed</string>
+    <string name="preferences_face_matching_threshold">Matching threshold</string>
+    <string name="preferences_check_for_duplicates_multimodal">Perform duplicate check</string>
+
+    <!-- Enrollment -->
+    <string name="preferences_enrollment_check_for_duplicates">Check for duplicates</string>
+
+    <!-- Reset defaults -->
+    <string name="preferences_reset_to_defaults">Set default values</string>
+    <string name="preferences_reset_to_defaults_summary">Sets all preferences to factory defaults</string>
+
+    <!-- ============================== -->
+    <!-- Database -->
+    <!-- ============================== -->
+
+    <string name="msg_delete">Delete</string>
+    <string name="msg_modify">Modify</string>
+    <string name="msg_db_empty">Database is empty</string>
+    <string name="msg_db_entry_delete_question">Are you sure you want to delete this template?</string>
+    <string name="msg_db_access_error">Error accessing database</string>
+
+    <!-- ============================== -->
+    <!-- Camera -->
+    <!-- ============================== -->
+
+    <string name="preferences_camera_screen_name">Camera</string>
+    <string name="preferences_camera_resolution">Camera resolution</string>
+    <string name="preferences_camera_change_camera">Change camera</string>
+    <string name="msg_camera_formats">Camera formats</string>
+
+    <!-- ============================== -->
+    <!-- Faces -->
+    <!-- ============================== -->
+
+    <string name="face_app_name">VeriLook</string>
+    <string name="msg_capture">Capture</string>
+    <string name="msg_face_detected">Face detected! Press capture button to proceed.</string>
+    <string name="msg_gender">Gender: %1$s</string>
+    <string name="msg_glasses">Glasses: %1$s</string>
+    <string name="msg_dark_glasses">Dark glasses: %1$s</string>
+    <string name="msg_expression_and_confidence">Expression: %1$s</string>
+    <string name="msg_blink">Blink: %1$s</string>
+    <string name="msg_quality_failed">Quality failed</string>
+
+    <!-- NGender enum values -->
+    <string name="msg_unspecified">Unspecified</string>
+    <string name="msg_male">Male</string>
+    <string name="msg_female">Female</string>
+    <string name="msg_unknown">Unknown</string>
+    <string name="msg_person_data">Person data</string>
+    <string name="msg_status">Status</string>
+
+    <!-- Preferences -->
+    <string name="preferences_face_extraction_iod_category_name">Inter ocular distances</string>
+    <string name="preferences_face_extraction_angle_deviation_category_name">Angle deviations</string>
+    <string name="preferences_face_min_iod">MinIod</string>
+    <string name="preferences_face_max_iod">MaxIod</string>
+    <string name="preferences_face_confidence_threshold">Face confidence threshold</string>
+    <string name="preferences_face_quality_threshold">Face quality threshold</string>
+    <string name="preferences_liveness_threshold">Liveness threshold</string>
+    <string name="preferences_face_maximal_yaw">Maximal yaw angle deviation</string>
+    <string name="preferences_face_maximal_roll">Maximal roll angle deviation</string>
+    <string name="preferences_face_template_size">Template size</string>
+    <string name="preferences_face_liveness_mode">Liveness mode</string>
+    <string name="preferences_face_advanced_category_name">Advanced</string>
+    <string name="preferences_face_liveness_category_name">Liveness</string>
+    <string name="preferences_face_age_category_name">Age</string>
+    <string name="preferences_face_determine_age">Determine age</string>
+    <string name="preferences_face_detect_all_feature_points">Detect all feature points</string>
+    <string name="preferences_face_detect_base_feature_points">Detect base feature points</string>
+    <string name="preferences_face_detect_properties">Detect properties</string>
+    <string name="preferences_face_recognize_expression">Recognize expression</string>
+    <string name="preferences_face_recognize_emotion">Recognize emotion</string>
+    <string name="preferences_face_determine_gender">Determine gender</string>
+    <string name="preferences_face_thumbnail_category_name">Thumbnail</string>
+    <string name="preferences_face_create_thumbnail">Create thumbnail</string>
+    <string name="preferences_face_thumbnail_width">Thumbnail width</string>
+    <string name="preferences_face_icao_category_name">ICAO settings</string>
+    <string name="preferences_face_icao_show_warnings">Show icao warnings</string>
+    <string name="preferences_face_icao_show_warning_text">Show icao text warnings</string>
+
+    <!-- ============================== -->
+    <!-- Fingers -->
+    <!-- ============================== -->
+
+    <string name="finger_app_name">VeriFinger</string>
+
+    <!-- Preferences -->
+    <string name="preferences_finger_matcher_speed">Speed</string>
+    <string name="preferences_finger_matcher_maximal_rotation">Maximal rotation</string>
+    <string name="preferences_finger_matcher_min_matched_finger_count">Minimal matched finger count</string>
+    <string name="preferences_finger_matcher_min_matched_finger_count_threshold">Minimal matched finger count threshold</string>
+    <string name="preferences_finger_capturing_device">Finger capturing device</string>
+
+    <!-- ============================== -->
+    <!-- Voices -->
+    <!-- ============================== -->
+
+    <string name="voice_app_name">VeriSpeak</string>
+    <string name="msg_no_audio_device">No audio recording device found</string>
+    <string name="msg_say_your_phrase">Please say your phrase</string>
+    <string name="msg_template_not_extracted">Template was not extracted</string>
+    <string name="msg_template_extracted">Template extracted</string>
+    <string name="msg_user_id_must_be_unique_and_non_empty">User id must be unique and non-empty</string>
+    <string name="msg_verifying_please_wait_">Verifying. Please wait…</string>
+    <string name="msg_choose_template_to_verify_with">Please choose a template to verify with</string>
+    <string name="msg_using_unique_phrase_only">Using unique phrase only</string>
+    <string name="msg_voice_detected">Voice detected</string>
+    <string name="msg_voice_not_detected">Voice not detected</string>
+
+    <!-- Preferences -->
+    <string name="preferences_voice_unique_phrases_only">Unique phrases only</string>
+    <string name="preferences_voice_extraction_mode">Voices extraction mode</string>
+
+    <!-- ============================== -->
+    <!-- Irises -->
+    <!-- ============================== -->
+
+    <string name="iris_app_name">VeriEye</string>
+
+    <!-- Preferences -->
+
+    <string name="preferences_iris_fast_extraction">Fast extraction</string>
+    <string name="preferences_iris_maximal_rotation">Maximal rotation</string>
+    <string name="title_activity_activation">ActivationActivity</string>
+    <string name="change_camera">Switch Camera</string>
+</resources>

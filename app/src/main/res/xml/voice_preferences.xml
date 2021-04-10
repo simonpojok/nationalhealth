@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:seekbar="http://seekbar.com" >
+
+	<PreferenceCategory android:title="@string/preferences_enrollment_check_for_duplicates">
+		<CheckBoxPreference
+			android:key="voice_enrollment_check_for_duplicates"
+			android:defaultValue="true"
+			android:title="@string/preferences_enrollment_check_for_duplicates" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_extraction" >
+		<CheckBoxPreference
+			android:key="voice_unique_phrases_only"
+			android:title="@string/preferences_voice_unique_phrases_only"
+			android:defaultValue="false" />
+
+		<ListPreference
+			android:key="voice_extraction_mode"
+			android:title="@string/preferences_voice_extraction_mode"
+			android:entries="@array/voice_extraction_mode_names"
+			android:entryValues="@array/voice_extraction_mode_names"
+			android:defaultValue="Text dependent"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_reset_to_defaults">
+		<Preference
+			android:key="voice_set_default_preferences"
+			android:title="@string/preferences_reset_to_defaults"
+			android:summary="@string/preferences_reset_to_defaults_summary" />
+	</PreferenceCategory>
+</PreferenceScreen>

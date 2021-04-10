@@ -1,0 +1,67 @@
+description = "Neurotechnology"
+
+apply plugin: 'com.android.library'
+
+def productRootDir = "../.."
+def productBinDir = new File(productRootDir, "Bin")
+def productBinAndroidDir = new File(productBinDir, "Android")
+
+buildscript {
+	System.properties['com.android.build.gradle.overrideVersionCheck'] = 'true'
+	repositories {
+		google()
+		jcenter()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:4.1.2'
+	}
+}
+
+android {
+	compileSdkVersion 30
+
+	defaultConfig {
+		minSdkVersion 21
+		targetSdkVersion 30
+
+		ndk {
+			abiFilters 'x86', 'armeabi-v7a', 'arm64-v8a'
+		}
+	}
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_8
+		targetCompatibility JavaVersion.VERSION_1_8
+	}
+	lintOptions {
+		abortOnError false
+	}
+}
+
+gradle.projectsEvaluated {
+	tasks.withType(JavaCompile) {
+		options.compilerArgs << "-Xlint:deprecation"
+	}
+}
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.2.0'
+	implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+	implementation 'com.google.android.material:material:1.3.0'
+	api ":neurotec-core-android"
+	api ":neurotec-licensing-android"
+	api ":neurotec-gui-android"
+	api ":neurotec-media-android"
+	api ":neurotec-media-processing-android"
+	api 'net.java.dev.jna:jna:5.5.0@aar'
+	api 'androidx.legacy:legacy-support-v4:1.0.0'
+	api(name:'neurotec-licensing-gui-android', ext:'aar')
+}
+
+repositories {
+	google()
+	jcenter()
+	mavenCentral()
+	flatDir {
+		dirs "${productBinAndroidDir}/"
+	}
+}

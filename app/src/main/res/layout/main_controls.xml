@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/capture_controls"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" >
+
+		<Button
+			android:id="@+id/button_load"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/ic_menu_button_load"
+			android:text="@string/msg_load" />
+
+		<Button
+			android:id="@+id/button_capture"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@android:drawable/ic_menu_camera"
+			android:gravity="center"
+			android:text="@string/msg_capture" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/stop_controls"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:gravity="center" >
+
+		<Button
+			android:id="@+id/button_stop"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@android:drawable/ic_menu_camera"
+			android:gravity="center"
+			android:text="@string/msg_stop" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/success_controls"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:gravity="center"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/success_controls"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_weight="4"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/button_enroll"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@android:drawable/ic_menu_save"
+				android:text="@string/msg_enroll" />
+
+			<Button
+				android:id="@+id/button_identify"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@drawable/ic_menu_button_identify"
+				android:text="@string/msg_identify" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/success_controls"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_weight="2"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/button_back"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@android:drawable/ic_menu_revert"
+				android:text="Back" />
+
+			<Button
+				android:id="@+id/button_verify"
+				android:layout_width="0dip"
+				android:layout_height="50dp"
+				android:layout_weight="1"
+				android:drawableLeft="@drawable/ic_menu_button_verify"
+				android:text="@string/msg_verify" />
+		</LinearLayout>
+	</LinearLayout>
+<!--
+	<TextView
+			android:id="@+id/textview_status"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Status" />
+-->
+
+</LinearLayout>

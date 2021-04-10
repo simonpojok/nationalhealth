@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="image_assets_file_extensions">
+		<item >jpg</item>
+		<item >jpeg</item>
+		<item >bmp</item>
+		<item >png</item>
+		<item >gif</item>
+	</string-array>
+
+	<string-array name="licensing_mode_names">
+		<item >From File</item>
+		<item >From PC</item>
+	</string-array>
+	<string-array name="licensing_mode_values">
+		<item >FROM_FILE</item>
+		<item >FROM_PC</item>
+	</string-array>
+
+	<string-array name="trial_licensing_mode_names">
+		<item >Directly</item>
+		<item >From PC</item>
+	</string-array>
+	<string-array name="trial_licensing_mode_values">
+		<item >DIRECTLY</item>
+		<item >FROM_PC</item>
+	</string-array>
+</resources>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/listed_results_container_surname"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/smartContainer"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/surname"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/listed_results_container_givenName"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/smartContainer"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_givenName"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/givenName"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_givenName"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/listed_results_container_dob"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.115">
+                <TextView
+                    android:id="@+id/listed_results_label_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/date_of_birth"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/listed_results_container_gender"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/sex"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/listed_results_container_nin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_nin"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/nin"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_nin"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/listed_results_container_documentNumber"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_documentNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/card_number"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_documentNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/listed_results_container_expiryDate"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_expiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/expiry_date"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_expiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_gravity="center"
+            android:layout_width="380sp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_brown"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/listed_results_container_nationality"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="564dp"
+                android:orientation="vertical"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.38"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.115">
+
+                <TextView
+                    android:id="@+id/listed_results_label_nationality"
+                    android:text="nationality"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/listed_results_value_nationality"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="left"
+                    android:text="Body Goes Here fasdasfsdfsdsfsdsd"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</LinearLayout>

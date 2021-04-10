@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/helplines"
+        android:orderInCategory="100"
+        android:title="Call support"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/data_policy"
+        android:orderInCategory="100"
+        android:title="Data policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about_misho"
+        android:orderInCategory="100"
+        android:title="About MISHO"
+        app:showAsAction="never" />
+
+</menu>

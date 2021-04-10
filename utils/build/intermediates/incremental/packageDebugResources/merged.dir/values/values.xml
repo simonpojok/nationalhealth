@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_assets_file_extensions">
+		<item>jpg</item>
+		<item>jpeg</item>
+		<item>bmp</item>
+		<item>png</item>
+		<item>gif</item>
+	</string-array>
+    <string-array name="licensing_mode_names">
+		<item>From File</item>
+		<item>From PC</item>
+	</string-array>
+    <string-array name="licensing_mode_values">
+		<item>FROM_FILE</item>
+		<item>FROM_PC</item>
+	</string-array>
+    <string-array name="trial_licensing_mode_names">
+		<item>Directly</item>
+		<item>From PC</item>
+	</string-array>
+    <string-array name="trial_licensing_mode_values">
+		<item>DIRECTLY</item>
+		<item>FROM_PC</item>
+	</string-array>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <item name="dialog_error" type="id"/>
+    <item name="dialog_licensing_from_file_mode" type="id"/>
+    <item name="dialog_licensing_from_pc_mode" type="id"/>
+    <item name="dialog_manage_connections" type="id"/>
+    <item name="dialog_message" type="id"/>
+    <item name="dialog_progress" type="id"/>
+    <item name="dialog_question" type="id"/>
+    <item name="list_item_layout" type="id"/>
+    <string name="app_name">utils</string>
+    <string name="msg_about">About</string>
+    <string name="msg_activate">Activate</string>
+    <string name="msg_activate_online">Would you like to activate ID online?</string>
+    <string name="msg_activated_components">Activated components</string>
+    <string name="msg_activating">Activating...</string>
+    <string name="msg_activation">Activation</string>
+    <string name="msg_activation_failed">Activation failed</string>
+    <string name="msg_activation_info">Activation info</string>
+    <string name="msg_activation_succeeded">Activation succeeded</string>
+    <string name="msg_add">Add</string>
+    <string name="msg_add_license_files">Add license files</string>
+    <string name="msg_all_components_activated">All components are activated</string>
+    <string name="msg_cancel">Cancel</string>
+    <string name="msg_checking_licensing_mode">Checking licensing mode</string>
+    <string name="msg_close">Close</string>
+    <string name="msg_company_info">Vendor: %1$s\nVersion: %2$s\nCopyright \u00a9 2012 - 2021 Neurotechnology</string>
+    <string name="msg_company_name">Neurotechnology</string>
+    <string name="msg_configuration">Configuration</string>
+    <string name="msg_configure">Configure</string>
+    <string name="msg_connected">Connected</string>
+    <string name="msg_connection">Connection</string>
+    <string name="msg_continue_pending">Continue pending</string>
+    <string name="msg_copy_to_clipboard">Copy to clipboard</string>
+    <string name="msg_copyright">Copyright \u00a9 2015 - 2021 Neurotechnology</string>
+    <string name="msg_crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="msg_crash_dialog_ok_toast">Thank you!</string>
+    <string name="msg_crash_dialog_text">An unexpected error occurred forcing the application to stop.
+		Please help us to fix this by sending an email to support@neurotechnology.com with the report file attached.
+		The report file will be saved to \'sdcard/Neurotechnology/Reports\' folder once you press \'OK\' button.
+	</string>
+    <string name="msg_crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="msg_crash_notif_ticker_text">Unexpected error, please send a report...</string>
+    <string name="msg_crash_notif_title">Licensing Manager has crashed...</string>
+    <string name="msg_crash_toast_text">The application has crashed. Please see the notification for more information.</string>
+    <string name="msg_deactivate">Deactivate</string>
+    <string name="msg_deactivating">Deactivating...</string>
+    <string name="msg_deactivation">Deactivation</string>
+    <string name="msg_deactivation_failed">Deactivation failed</string>
+    <string name="msg_deactivation_succeeded">Deactivation succeeded</string>
+    <string name="msg_details">Details...</string>
+    <string name="msg_dialog_retry_to_open_file">Do you wish to try again?</string>
+    <string name="msg_directly">Directly</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_exit">Exit</string>
+    <string name="msg_failed_to_open_file">Failed to open file</string>
+    <string name="msg_format_configuration">Configuration:\n%1$s</string>
+    <string name="msg_format_license_directory_not_available">Can not find license files. License files should be placed on SDCard in %s directory.</string>
+    <string name="msg_format_licensing_service_report_was_saved">Licensing service report was saved to file %1$s</string>
+    <string name="msg_format_log">Log:\n%1$s</string>
+    <string name="msg_format_status">Status: %1$s</string>
+    <string name="msg_format_trial">Trial: %1$s</string>
+    <string name="msg_from_file">From file</string>
+    <string name="msg_from_pc">From PC</string>
+    <string name="msg_generate">Generate</string>
+    <string name="msg_generate_report">Generate report</string>
+    <string name="msg_generating">Generating ID...</string>
+    <string name="msg_generation_failed">ID generation failed</string>
+    <string name="msg_generation_succeeded">ID was successfully generated and stored in SD Card/Neurotechnology/Licenses directory</string>
+    <string name="msg_initializing">Initializing...</string>
+    <string name="msg_internet_connection">Internet connection</string>
+    <string name="msg_internet_connection_status">Connection status</string>
+    <string name="msg_internet_connection_type">Connection type</string>
+    <string name="msg_ip_and_port_not_valid">Entered IP and port are not valid</string>
+    <string name="msg_ip_not_valid">Entered IP is not valid</string>
+    <string name="msg_license_file_is_not_selected">License file is not selected</string>
+    <string name="msg_licenses_not_obtained">Licenses were not obtained</string>
+    <string name="msg_licenses_obtained">Licenses were obtained</string>
+    <string name="msg_licenses_partially_obtained">Not all Licenses were obtained</string>
+    <string name="msg_licensing_mode">Licensing mode</string>
+    <string name="msg_licensing_select_mode_direct">Obtain license directly from the Internet server</string>
+    <string name="msg_licensing_select_mode_from_file">Obtain license from files stored at predefined location</string>
+    <string name="msg_licensing_select_mode_from_pc">Obtain license from computer in local network</string>
+    <string name="msg_licensing_server">Licensing server</string>
+    <string name="msg_licensing_server_address">Address</string>
+    <string name="msg_licensing_server_port">Port</string>
+    <string name="msg_licensing_service">Licensing service</string>
+    <string name="msg_loaded_modules">Loaded modules</string>
+    <string name="msg_loading_resources">Loading resources...</string>
+    <string name="msg_log">Log</string>
+    <string name="msg_log_copied_to_clipboard">Log was copied to clipboard</string>
+    <string name="msg_log_not_available">Log is not available</string>
+    <string name="msg_no">No</string>
+    <string name="msg_no_activated_components">No activated components</string>
+    <string name="msg_no_internet_connection">Unable to connect to the Internet</string>
+    <string name="msg_no_internet_connection_still_proceed">Unable to connect to the Internet. Do you want to proceed?</string>
+    <string name="msg_no_licenses">There are no licenses in directory</string>
+    <string name="msg_no_loaded_modules">No loaded modules</string>
+    <string name="msg_no_loaded_plugins">No loaded plugins</string>
+    <string name="msg_no_serial_numbers">There are no serial numbers in directory</string>
+    <string name="msg_not_activated_components">Not activated components</string>
+    <string name="msg_not_connected">Not connected</string>
+    <string name="msg_not_installed">Not installed</string>
+    <string name="msg_not_recognized_file_loading_type">Unrecognized file loading type</string>
+    <string name="msg_not_running">Not running</string>
+    <string name="msg_obtain">Obtain</string>
+    <string name="msg_obtaining_licenses">Obtaining licenses...</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_operation_is_not_activated">Operation is not activated</string>
+    <string name="msg_pause_pending">Pause pending</string>
+    <string name="msg_paused">Paused</string>
+    <string name="msg_plugins">Plugins</string>
+    <string name="msg_port_not_valid">Entered port is not valid</string>
+    <string name="msg_proceed_activation_online">Device id\'s were generated: %s. Please proceed activation online by using site: http://www.neurotechnology.com/software_activation.html. Alternatively, id files can be sent to Neurotechnology (support@neurotechnology.com) or distributor from which SDK was acquired</string>
+    <string name="msg_proceed_deactivation_online">Deactivation id\'s were generated: %s. Please proceed deactivation online by using site: http://www.neurotechnology.com/cgi-bin/nlz.cgi. Alternatively, id files can be sent to Neurotechnology (support@neurotechnology.com) or distributor from which SDK was acquired</string>
+    <string name="msg_protection_governor">Protection governor</string>
+    <string name="msg_protection_governor_not_started">Protection governor not started</string>
+    <string name="msg_question_manage_networks">Would you like to manage your network connections now?</string>
+    <string name="msg_release">Release</string>
+    <string name="msg_remove">Remove</string>
+    <string name="msg_reobtain_licenses_question">Changes to licenses were made. Do you wish to perform reobtain?</string>
+    <string name="msg_reset_to_defaults">Set default values</string>
+    <string name="msg_reset_to_defaults_summary">Sets all preferences to factory defaults</string>
+    <string name="msg_restarting_service">Restarting service</string>
+    <string name="msg_running">Running</string>
+    <string name="msg_sdcard_not_ready_for_reading">SD card is not ready for reading. Please unmounted it from PC and try again.</string>
+    <string name="msg_select_licensing_mode">Select licensing mode</string>
+    <string name="msg_serial_numbers">Serial numbers</string>
+    <string name="msg_service">Service</string>
+    <string name="msg_settings_reset">Settings have been reset</string>
+    <string name="msg_standard_category">Standard</string>
+    <string name="msg_start">Start</string>
+    <string name="msg_start_pending">Start pending</string>
+    <string name="msg_starting_service">Starting service</string>
+    <string name="msg_status">Status</string>
+    <string name="msg_status_format">Status: %1$s</string>
+    <string name="msg_stop">Stop</string>
+    <string name="msg_stop_pending">Stop pending</string>
+    <string name="msg_stopped">Stopped</string>
+    <string name="msg_stopping_service">Stopping service</string>
+    <string name="msg_third_party_file_loading_app_failed">Selected source loading app failed</string>
+    <string name="msg_trial">Trial</string>
+    <string name="msg_trial_category">Trial</string>
+    <string name="msg_unknown">Unknown</string>
+    <string name="msg_updating">Updating…</string>
+    <string name="msg_vew_log">View log</string>
+    <string name="msg_yes">Yes</string>
+    <string name="title_assets">Assets</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_directory_view_activity">Listing the contents of </string>
+    <string name="title_directory_view_browse">Browse...</string>
+    <string name="title_directory_view_cannot_open">Cannot open this directory</string>
+    <string name="title_directory_view_no_items">No items in directory</string>
+    <string name="title_from_camera">From camera…</string>
+    <string name="title_from_file">From file…</string>
+    <string name="title_image_input_source_activity">Pick an image</string>
+    <string name="title_input_source_activity">Pick a file</string>
+    <string name="title_item_from_sample_directory">Item from sample directory</string>
+    <string name="title_memory">Memory</string>
+</resources>

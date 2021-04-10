@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ============================== -->
+	<!--  Common						-->
+	<!-- ============================== -->
+
+	<!-- ============================== -->
+	<!--  Camera						-->
+	<!-- ============================== -->
+	<string-array name="camera_flash_mode_names">
+		<item >Off</item>
+		<item >On demand</item>
+		<item >On</item>
+	</string-array>
+
+	<string-array name="camera_flash_mode_values">
+		<item >OFF</item>
+		<item >ON_DEMAND</item>
+		<item >ON</item>
+	</string-array>
+
+	<!-- ============================== -->
+	<!--  Faces							-->
+	<!-- ============================== -->
+	<string-array name="face_maching_speed_names">
+		<item >Low</item>
+		<item >High</item>
+	</string-array>
+	<string-array name="face_maching_speed_values">
+		<item >0</item>
+		<item >256</item>
+	</string-array>
+	<string-array name="face_threshold_names">
+		<item >10%%</item>
+		<item >1%%</item>
+		<item >0.1%%</item>
+		<item >0.01%%</item>
+		<item >0.001%%</item>
+		<item >0.0001%%</item>
+	</string-array>
+	<string-array name="face_threshold_values">
+		<item >12</item>
+		<item >24</item>
+		<item >36</item>
+		<item >48</item>
+		<item >60</item>
+		<item >72</item>
+	</string-array>
+	<string-array name="face_liveness_names">
+		<item >None</item>
+		<item >Passive</item>
+		<item >Active</item>
+		<item >Passive and active</item>
+		<item >Simple</item>
+		<item >Custom</item>
+	</string-array>
+	<string-array name="face_liveness_values">
+		<item >0</item>
+		<item >1</item>
+		<item >2</item>
+		<item >3</item>
+		<item >4</item>
+		<item >5</item>
+	</string-array>
+
+	<!-- ============================== -->
+	<!--  Fingers						-->
+	<!-- ============================== -->
+
+	<string-array name="finger_maching_speed_names">
+		<item>Low</item>
+		<item>High</item>
+	</string-array>
+	<string-array name="finger_maching_speed_values">
+		<item>0</item>
+		<item>256</item>
+	</string-array>
+	<string-array name="finger_template_size_names">
+		<!-- Temporarily disabling <item>Compact</item> -->
+		<item>Small</item>
+		<item>Medium</item>
+	</string-array>
+	<string-array name="finger_template_size_values">
+		<!-- Temporarily disabling <item>0</item> -->
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+	<string-array name="finger_threshold_names">
+		<item>10%</item>
+		<item>1%</item>
+		<item>0.1%</item>
+		<item>0.01%</item>
+		<item>0.001%</item>
+		<item>0.0001%</item>
+	</string-array>
+	<string-array name="finger_threshold_values">
+		<item>12</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>60</item>
+		<item>72</item>
+	</string-array>
+	<string-array name="finger_returned_image">
+		<item>None</item>
+		<item>Binarized</item>
+		<item>Skeletonized</item>
+	</string-array>
+	<string-array name="finger_returned_image_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string-array name="finger_ridge_counts">
+		<item>None</item>
+		<item>Four neighbors</item>
+		<item>Eight neighbors</item>
+		<item>Four neighbors with indexes</item>
+		<item>Eight neighbors with indexes</item>
+	</string-array>
+	<string-array name="finger_ridge_counts_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>6</item>
+	</string-array>
+	<!-- ============================== -->
+	<!--  Voices						-->
+	<!-- ============================== -->
+	<string-array name="voice_maching_speed_names">
+		<item >Low</item>
+		<item >High</item>
+	</string-array>
+	<string-array name="voice_maching_speed_values">
+		<item >0</item>
+		<item >256</item>
+	</string-array>
+	<string-array name="voice_threshold_names">
+		<item >10%</item>
+		<item >5%</item>
+		<item >1%</item>
+		<item >0.1%</item>
+	</string-array>
+	<string-array name="voice_threshold_values">
+		<item >12</item>
+		<item >16</item>
+		<item >24</item>
+		<item >36</item>
+	</string-array>
+	<string-array name="voice_extraction_mode_names">
+		<item >Text dependent</item>
+		<item >Text independent</item>
+	</string-array>
+
+	<!-- ============================== -->
+	<!--  Irises						-->
+	<!-- ============================== -->
+	<string-array name="iris_maching_speed_names">
+		<item>Low</item>
+		<item>Medium</item>
+	</string-array>
+	<string-array name="iris_maching_speed_values">
+		<item>0</item>
+		<item>128</item>
+	</string-array>
+	<string-array name="iris_template_size_names">
+		<!-- Temporarily disabling <item>Compact</item> -->
+		<item>Small</item>
+		<item>Medium</item>
+	</string-array>
+	<string-array name="iris_template_size_values">
+		<!-- Temporarily disabling <item>0</item> -->
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+	<string-array name="iris_threshold_names">
+		<item>10%</item>
+		<item>1%</item>
+		<item>0.1%</item>
+		<item>0.01%</item>
+		<item>0.001%</item>
+		<item>0.0001%</item>
+	</string-array>
+	<string-array name="iris_threshold_values">
+		<item>12</item>
+		<item>24</item>
+		<item>36</item>
+		<item>48</item>
+		<item>60</item>
+		<item>72</item>
+	</string-array>
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:background="@color/md_teal_100"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<EditText
+			android:id="@+id/subject_id"
+			android:hint="Subject ID"
+			android:focusableInTouchMode="true"
+			android:gravity="center"
+			android:textColorHint="@color/md_blue_grey_500"
+			android:background="@color/md_teal_100"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_width="match_parent"
+			android:layout_height="25dip"
+			android:inputType="textVisiblePassword"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:background="@color/md_teal_100"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<RelativeLayout
+				android:layout_marginBottom ="5dip"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:paddingTop="5dip"
+				android:paddingBottom="5dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/face"
+					android:src="@drawable/menu_face"
+					android:adjustViewBounds="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					/>
+				<TextView
+					android:id="@+id/face_counter"
+					android:text="0"
+					android:textColor="@color/white"
+					android:textSize="30dip"
+					android:paddingLeft="10dip"
+					android:paddingTop="5dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_marginBottom ="5dip"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:paddingTop="5dip"
+				android:paddingBottom="5dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/finger"
+					android:src="@drawable/menu_finger"
+					android:adjustViewBounds="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					/>
+				<TextView
+					android:id="@+id/finger_counter"
+					android:text="0"
+					android:textColor="@color/white"
+					android:textSize="30dip"
+					android:paddingLeft="10dip"
+					android:paddingTop="5dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			</RelativeLayout>
+
+
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<RelativeLayout
+				android:layout_marginBottom ="5dip"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:paddingTop="5dip"
+				android:paddingBottom="5dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/iris"
+					android:src="@drawable/menu_eye"
+					android:adjustViewBounds="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					/>
+				<TextView
+					android:id="@+id/iris_counter"
+					android:text="0"
+					android:textColor="@color/white"
+					android:textSize="30dip"
+					android:paddingLeft="10dip"
+					android:paddingTop="5dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_marginBottom ="5dip"
+				android:layout_marginTop="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:paddingTop="5dip"
+				android:paddingBottom="5dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/voice"
+					android:src="@drawable/menu_voice"
+					android:adjustViewBounds="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					/>
+				<TextView
+					android:id="@+id/voice_counter"
+					android:text="0"
+					android:textColor="@color/white"
+					android:textSize="30dip"
+					android:paddingLeft="10dip"
+					android:paddingTop="5dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="20dip"
+			android:layout_gravity="bottom"
+			android:orientation="vertical">
+
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<Button
+					android:text="Enroll"
+					android:background="@drawable/round_button"
+					android:textColor="@color/white"
+					android:layout_marginEnd ="10dip"
+					android:layout_marginTop="10dip"
+					android:layout_marginLeft="20dip"
+					android:layout_marginRight="10dip"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/multimodal_button_enroll"
+					android:layout_weight="1"/>
+
+				<Button
+					android:text="Identify"
+					android:background="@drawable/round_button"
+					android:textColor="@color/white"
+					android:layout_marginEnd ="10dip"
+					android:layout_marginTop="10dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="20dip"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/multimodal_button_identify"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+				<Button
+					android:text="New"
+					android:background="@drawable/round_button"
+					android:textColor="@color/white"
+					android:layout_marginEnd ="10dip"
+					android:layout_marginTop="10dip"
+					android:layout_marginLeft="20dip"
+					android:layout_marginRight="10dip"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/multimodal_button_new"
+					android:layout_weight="1"/>
+
+				<Button
+					android:text="Verify"
+					android:background="@drawable/round_button"
+					android:textColor="@color/white"
+					android:layout_marginEnd ="10dip"
+					android:layout_marginTop="10dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="20dip"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/multimodal_button_verify"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

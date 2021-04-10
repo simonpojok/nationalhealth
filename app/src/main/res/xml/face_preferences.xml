@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:seekbar="http://seekbar.com" >
+
+	<PreferenceCategory android:title="@string/preferences_face_liveness_category_name" >
+		<ListPreference
+			android:key="liveness_mode"
+			android:title="@string/preferences_face_liveness_mode"
+			android:entries="@array/face_liveness_names"
+			android:entryValues="@array/face_liveness_values"
+			android:defaultValue="0"/>
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="liveness_threshold"
+			android:title="@string/preferences_liveness_threshold"
+			seekbar:min="0"
+			android:max="100"
+			android:defaultValue="50"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_face_age_category_name" >
+		<CheckBoxPreference
+			android:key="face_determine_age"
+			android:title="@string/preferences_face_determine_age"
+			android:defaultValue="false"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/preferences_enrollment_check_for_duplicates">
+		<CheckBoxPreference
+			android:key="face_enrollment_check_for_duplicates"
+			android:defaultValue="true"
+			android:title="@string/preferences_enrollment_check_for_duplicates" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_matching" >
+		<ListPreference
+			android:key="face_matching_speed"
+			android:title="@string/preferences_face_matching_speed"
+			android:entries="@array/face_maching_speed_names"
+			android:entryValues="@array/face_maching_speed_values"
+			android:defaultValue="0" />
+
+		<ListPreference
+			android:key="face_matching_threshold"
+			android:title="@string/preferences_face_matching_threshold"
+			android:entries="@array/face_threshold_names"
+			android:entryValues="@array/face_threshold_values"
+			android:defaultValue="48"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_extraction" >
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="face_min_iod"
+			android:title="@string/preferences_face_min_iod"
+			seekbar:min="40"
+			android:max="300"
+			android:defaultValue="40"/>
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="face_confidence_threshold"
+			android:title="@string/preferences_face_confidence_threshold"
+			seekbar:min="0"
+			android:max="100"
+			android:defaultValue="50"/>
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="face_quality_threshold"
+			android:title="@string/preferences_face_quality_threshold"
+			seekbar:min="0"
+			android:max="100"
+			android:defaultValue="50"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_face_extraction_angle_deviation_category_name" >
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="face_maximal_yaw"
+			android:title="@string/preferences_face_maximal_yaw"
+			seekbar:min="0"
+			android:max="90"
+			android:defaultValue="15"/>
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="face_maximal_roll"
+			android:title="@string/preferences_face_maximal_roll"
+			seekbar:min="0"
+			android:max="180"
+			android:defaultValue="15"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_face_advanced_category_name" >
+		<CheckBoxPreference
+			android:key="face_detect_all_feature_points"
+			android:title="@string/preferences_face_detect_all_feature_points"
+			android:defaultValue="false"
+			/>
+
+		<CheckBoxPreference
+			android:key="face_determine_gender"
+			android:title="@string/preferences_face_determine_gender"
+			android:defaultValue="false"/>
+
+		<CheckBoxPreference
+			android:key="face_detect_properties"
+			android:title="@string/preferences_face_detect_properties"
+			android:defaultValue="false"/>
+
+		<CheckBoxPreference
+			android:key="face_recognize_expression"
+			android:title="@string/preferences_face_recognize_expression"
+			android:defaultValue="false"/>
+
+		<CheckBoxPreference
+			android:key="face_recognize_emotion"
+			android:title="@string/preferences_face_recognize_emotion"
+			android:defaultValue="false"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/preferences_face_thumbnail_category_name" >
+		<CheckBoxPreference
+			android:key="face_create_thumbnail"
+			android:title="@string/preferences_face_create_thumbnail"
+			android:defaultValue="false"/>
+
+		<com.neurotec.samples.preferences.SeekBarPreference
+			android:key="face_thumbnail_width"
+			android:title="@string/preferences_face_thumbnail_width"
+			android:shouldDisableView="true"
+			android:dependency="face_create_thumbnail"
+			seekbar:min="30"
+			android:max="1000"
+			android:defaultValue="90"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/preferences_reset_to_defaults">
+		<Preference
+			android:key="face_set_default_preferences"
+			android:title="@string/preferences_reset_to_defaults"
+			android:summary="@string/preferences_reset_to_defaults_summary" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/preferences_face_icao_category_name" >
+		<CheckBoxPreference
+			android:key="face_icao_show_warnings"
+			android:title="@string/preferences_face_icao_show_warnings"
+			android:defaultValue="false"/>
+		<CheckBoxPreference
+			android:key="face_icao_show_warning_text"
+			android:title="@string/preferences_face_icao_show_warning_text"
+			android:defaultValue="false"/>
+	</PreferenceCategory>
+</PreferenceScreen>

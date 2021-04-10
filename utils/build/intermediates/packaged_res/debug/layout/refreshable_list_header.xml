@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+
+	<TextView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/list_header_title"
+		style="?android:attr/listSeparatorTextViewStyle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:height="36dip"
+		android:paddingBottom="2dip"
+		android:paddingLeft="5dip"
+		android:paddingTop="2dip"
+		android:text="Title"
+		android:focusable="false"
+		android:textColor="@color/white" />
+
+	<ImageView
+		android:id="@+id/list_header_title_refresh"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:cropToPadding="true"
+		android:src="@drawable/refresh_button"
+		android:focusable="true"
+		android:layout_alignParentRight="true"
+		/>
+
+</RelativeLayout>

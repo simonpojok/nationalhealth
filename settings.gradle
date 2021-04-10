@@ -1,0 +1,4 @@
+include ':barcodescanner'
+include ':app'
+include ':utils'
+rootProject.name = "NationalHealth"
